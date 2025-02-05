@@ -7,7 +7,7 @@ services:
     ports:
       - 8100:8100
     container_name: oct-server
-    enviroment:
+    environment:
       - OCT_ACTIVATE_SIMPLE_LOGIN=$OCT_ACTIVATE_SIMPLE_LOGIN
       - OCT_BASE_URL=$OCT_BASE_URL
       - OCT_JWT_PRIVATE_KEY=$OCT_JWT_PRIVATE_KEY
